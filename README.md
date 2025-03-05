@@ -1,6 +1,6 @@
 # Cattitude App (Cat Gallery App) 🐱
 
-This is an [Expo](https://expo.dev) mobile application that allows users to browse, favorite, vote on, and upload cat images.
+This is an [Expo](https://expo.dev) mobile/web application that allows users to browse, favorite, vote on, and upload cat images.
 
 ## Live Demo (web hosted link of the app)
 
@@ -19,6 +19,15 @@ https://cattitude-app.vercel.app/
   <img src="assets/screenshots/mobile/home-screen-m.png" width="250" alt="Home Screen"/>
   <img src="assets/screenshots/mobile/upload-screen-m.png" width="250" alt="Upload Screen"/>
 </div>
+
+## App Demo Video
+
+Check out the app in action:
+
+<video width="320" height="240" controls>
+  <source src="assets/videos/mobile-app.mov" type="video/quicktime">
+  Your browser does not support the video tag.
+</video>
 
 ## Features
 
