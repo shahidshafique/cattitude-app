@@ -25,7 +25,7 @@ https://cattitude-app.vercel.app/
 Check out the app in action:
 
 <video width="320" height="240" controls>
-  <source src="assets/videos/mobile-app.mov" type="video/quicktime">
+  <source src="assets/videos/mobile-app.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
