@@ -1,0 +1,511 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadForm renders correctly in initial state 1`] = `
+<View
+  style={
+    {
+      "padding": 20,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#4CAF50",
+        "borderRadius": 8,
+        "marginBottom": 20,
+        "opacity": 1,
+        "padding": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "white",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Select Image
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": true,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#B0BEC5",
+        "borderRadius": 8,
+        "marginTop": 20,
+        "opacity": 1,
+        "padding": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "white",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Upload Cat Image
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UploadForm renders correctly while uploading 1`] = `
+<View
+  style={
+    {
+      "padding": 20,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#4CAF50",
+        "borderRadius": 8,
+        "marginBottom": 20,
+        "opacity": 1,
+        "padding": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "white",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Select Image
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "marginVertical": 20,
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "uri": "data:image/jpeg;base64,mockImageData",
+        }
+      }
+      style={
+        {
+          "borderRadius": 8,
+          "height": 300,
+          "width": 300,
+        }
+      }
+    />
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": true,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#B0BEC5",
+        "borderRadius": 8,
+        "marginTop": 20,
+        "opacity": 1,
+        "padding": 15,
+      }
+    }
+  >
+    <ActivityIndicator
+      color="#fff"
+    />
+  </View>
+</View>
+`;
+
+exports[`UploadForm renders correctly with error message 1`] = `
+<View
+  style={
+    {
+      "padding": 20,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#4CAF50",
+        "borderRadius": 8,
+        "marginBottom": 20,
+        "opacity": 1,
+        "padding": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "white",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Select Image
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "backgroundColor": "#FFEBEE",
+        "borderRadius": 8,
+        "marginTop": 10,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#D32F2F",
+        }
+      }
+    >
+      Something went wrong
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": true,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#B0BEC5",
+        "borderRadius": 8,
+        "marginTop": 20,
+        "opacity": 1,
+        "padding": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "white",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Upload Cat Image
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`UploadForm renders correctly with selected image 1`] = `
+<View
+  style={
+    {
+      "padding": 20,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#4CAF50",
+        "borderRadius": 8,
+        "marginBottom": 20,
+        "opacity": 1,
+        "padding": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "white",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Select Image
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "marginVertical": 20,
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "uri": "data:image/jpeg;base64,mockImageData",
+        }
+      }
+      style={
+        {
+          "borderRadius": 8,
+          "height": 300,
+          "width": 300,
+        }
+      }
+    />
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#2196F3",
+        "borderRadius": 8,
+        "marginTop": 20,
+        "opacity": 1,
+        "padding": 15,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "white",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Upload Cat Image
+    </Text>
+  </View>
+</View>
+`;
