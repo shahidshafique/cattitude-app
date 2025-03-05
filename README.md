@@ -1,16 +1,32 @@
-# Welcome to your Expo app 👋
+# Cattitude App (Cat Gallery App) 🐱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an [Expo](https://expo.dev) mobile application that allows users to browse, favorite, vote on, and upload cat images.
+
+## Features
+
+- Browse a collection of cat images
+- Mark favorite cat images and view your favorites
+- Vote on cat images
+- Upload your own cat images
+- Optimistic UI updates for a smooth user experience
 
 ## Get started
 
-1. Install dependencies
+1. Set up environment variables
+
+   Copy the `.env.example` file to `.env` and fill in the required API keys.
+
+   ```bash
+   cp .env.example .env
+   ```
+
+2. Install dependencies
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Start the app
 
    ```bash
     npx expo start
@@ -23,28 +39,17 @@ In the output, you'll find options to open the app in a
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Project Structure
 
-## Get a fresh project
+- **/src/app**: Main application screens with file-based routing
+- **/src/components**: Reusable UI components like CatCard, UploadForm, and Error
+- **/src/services/api**: API service functions for interacting with the cat API
+- **/src/store**: Zustand store configuration and slices for state management
+- **/src/types**: TypeScript interfaces for the application
+- **/src/utils**: Utility functions for common operations
 
-When you're ready, run:
+## Key Components
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **CatCard**: Displays individual cat images with favorite and voting functionality
+- **UploadForm**: Allows users to upload their own cat images
+- **Error**: Error handling component for displaying error messages
