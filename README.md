@@ -2,6 +2,24 @@
 
 This is an [Expo](https://expo.dev) mobile application that allows users to browse, favorite, vote on, and upload cat images.
 
+## Live Demo (web hosted link of the app)
+
+https://cattitude-app.vercel.app/
+
+## web App Screenshots
+
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="assets/screenshots/web/home-screen.png" width="250" alt="Home Screen"/>
+  <img src="assets/screenshots/web/upload-screen.png" width="250" alt="Upload Screen"/>
+</div>
+
+## Mobile App Screenshots
+
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="assets/screenshots/mobile/home-screen-m.png" width="250" alt="Home Screen"/>
+  <img src="assets/screenshots/mobile/upload-screen-m.png" width="250" alt="Upload Screen"/>
+</div>
+
 ## Features
 
 - Browse a collection of cat images
